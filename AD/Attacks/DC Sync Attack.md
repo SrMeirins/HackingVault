@@ -1,7 +1,3 @@
-Aquí tienes una explicación detallada y estructurada sobre el **DCSync Attack**:
-
----
-
 # **DCSync Attack en Pentesting**
 
 **DCSync** es un ataque que permite a un atacante obtener las contraseñas y hashes de las cuentas de usuario en un dominio de Active Directory (AD) sin necesidad de acceder directamente a los Controladores de Dominio. Este ataque se aprovecha de los permisos que ciertos usuarios tienen en el dominio, específicamente los permisos de **GetChanges** y **GetChangesAll**, que les permiten solicitar la replicación de datos entre los Controladores de Dominio.
