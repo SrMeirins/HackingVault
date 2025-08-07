@@ -23,6 +23,7 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
 * **📂 01 Reconocimiento**
   * **📂 Escaneo Puertos**
       * 📄 [Advanced Bash Port Scanner](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner.md)
+      * 📄 [Nmap IPv6](01%20Reconocimiento/Escaneo%20Puertos/Nmap%20IPv6.md)
       * 📄 [Nmap](01%20Reconocimiento/Escaneo%20Puertos/Nmap.md)
   * **📂 OSINT**
   * **📂 Servicios**
@@ -41,6 +42,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [NXC Tool](01%20Reconocimiento/Servicios/SMB/NXC%20Tool.md)
         * 📄 [SMBClient](01%20Reconocimiento/Servicios/SMB/SMBClient.md)
         * 📄 [SMBMap](01%20Reconocimiento/Servicios/SMB/SMBMap.md)
+    * **📂 SNMP**
+        * 📄 [Enumeración SNMP](01%20Reconocimiento/Servicios/SNMP/Enumeraci%C3%B3n%20SNMP.md)
 * **📂 02 Vulnerabilidades y Explotacion**
   * **📂 Active_Directory**
     * **📂 Attacks**
@@ -134,8 +137,12 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/KeyTab%20Kerberos%20File.md)
         * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Pivoting%20Kerberos%20k5login.md)
         * 📄 [Sudo Privesc Binarios](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Sudo%20Privesc%20Binarios.md)
+  * **📂 Exfiltración Datos**
+      * 📄 [Exfiltración Datos ICMP](03%20Post%20Explotacion/Exfiltraci%C3%B3n%20Datos/Exfiltraci%C3%B3n%20Datos%20ICMP.md)
   * **📂 Movimiento Lateral**
       * 📄 [Autenticación Kerberos](03%20Post%20Explotacion/Movimiento%20Lateral/Autenticaci%C3%B3n%20Kerberos.md)
+  * **📂 Reverse Shells**
+      * 📄 [IPv6 Python y Socat](03%20Post%20Explotacion/Reverse%20Shells/IPv6%20Python%20y%20Socat.md)
 
 [//]: # (HACKING_VAULT_INDEX_END)
 
