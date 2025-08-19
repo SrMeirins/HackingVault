@@ -85,6 +85,12 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [LFI Vulnerability (CVE-2024-23897)](02%20Vulnerabilidades%20y%20Explotacion/Web/Jenkins/LFI%20Vulnerability%20%28CVE-2024-23897%29.md)
     * **📂 Log4j**
         * 📄 [Log4Shell JNDI Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/Log4j/Log4Shell%20JNDI%20Injection.md)
+    * **📂 PortSwigger Labs**
+      * **📂 SQL Injection**
+          * 📄 [SQLi-01-SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-01-SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data.md)
+          * 📄 [SQLi-02-SQL injection vulnerability allowing login bypass](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-02-SQL%20injection%20vulnerability%20allowing%20login%20bypass.md)
+          * 📄 [SQLi-03-SQL injection attack, querying the database type and version on Oracle](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-03-SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle.md)
+          * 📄 [SQLi-04-SQL injection attack, querying the database type and version on MySQL and Microsoft](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-04-SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft.md)
     * **📂 SQLi**
       * **📂 MSSQL**
           * 📄 [XP DIRTREE NET-NTLM HASH](02%20Vulnerabilidades%20y%20Explotacion/Web/SQLi/MSSQL/XP%20DIRTREE%20NET-NTLM%20HASH.md)
