@@ -1,6 +1,6 @@
 # 🧠 ¡Bienvenido a mi HackingVault!
 
-¡Hola! 👋
+!¡Hola!! 👋
 
 Este repositorio nació como mi **almacén de conocimiento personal**, una especie de "caja fuerte" digital creada para tener a mano apuntes, comandos y técnicas esenciales mientras resuelvo máquinas de Hack The Box (HTB) y otros desafíos de ciberseguridad. El objetivo era simple: ¡dejar de saturar la memoria con información y tener un lugar donde consultarla rápidamente!
 
