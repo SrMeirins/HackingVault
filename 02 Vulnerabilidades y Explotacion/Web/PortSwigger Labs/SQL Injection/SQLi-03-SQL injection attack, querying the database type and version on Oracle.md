@@ -1,13 +1,3 @@
----
-
-id: sqli-03
-title: "SQL injection attack, querying the database type and version on Oracle"
-category: "SQLi"
-difficulty: "Practitioner"
-tags: \[portswigger, sqli, oracle, union, practitioner]
-date: 2025-08-17
-----------------
-
 # SQL injection attack, querying the database type and version on Oracle
 
 **Categoría:** SQLi

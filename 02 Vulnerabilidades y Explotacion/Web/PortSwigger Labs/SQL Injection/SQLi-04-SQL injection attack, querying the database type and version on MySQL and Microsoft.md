@@ -1,13 +1,3 @@
----
-
-id: sqli-04
-title: "SQL injection attack, querying the database type and version on MySQL and Microsoft"
-category: "SQLi"
-difficulty: "Practitioner"
-tags: \[portswigger, sqli, mysql, mssql, union, practitioner]
-date: 2025-08-17
-----------------
-
 # SQL injection attack, querying the database type and version on MySQL and Microsoft
 
 **Categoría:** SQLi
