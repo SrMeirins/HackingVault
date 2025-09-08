@@ -22,9 +22,11 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
 
 * **📂 01 Reconocimiento**
   * **📂 Escaneo Puertos**
-      * 📄 [Advanced Bash Port Scanner](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner.md)
+      * 📄 [Advanced Bash Port Scanner through ProxyChains](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner%20through%20ProxyChains.md)
+      * 📄 [Manual Host Scan Ping](01%20Reconocimiento/Escaneo%20Puertos/Manual%20Host%20Scan%20Ping.md)
       * 📄 [Nmap IPv6](01%20Reconocimiento/Escaneo%20Puertos/Nmap%20IPv6.md)
       * 📄 [Nmap](01%20Reconocimiento/Escaneo%20Puertos/Nmap.md)
+      * 📄 [Simple Port Scanner Bash](01%20Reconocimiento/Escaneo%20Puertos/Simple%20Port%20Scanner%20Bash.md)
   * **📂 Servicios**
     * **📂 DNS**
         * 📄 [Brute-Forcing DNS](01%20Reconocimiento/Servicios/DNS/Brute-Forcing%20DNS.md)
@@ -64,6 +66,7 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * 📄 [OpenSMTPD RCE (CVE-2020-7247)](02%20Vulnerabilidades%20y%20Explotacion/SMTP/OpenSMTPD%20RCE%20%28CVE-2020-7247%29.md)
   * **📂 Tecnicas Generales**
     * **📂 Transferencia_Archivos**
+        * 📄 [Linux a Linux](02%20Vulnerabilidades%20y%20Explotacion/Tecnicas%20Generales/Transferencia_Archivos/Linux%20a%20Linux.md)
         * 📄 [Linux a Windows](02%20Vulnerabilidades%20y%20Explotacion/Tecnicas%20Generales/Transferencia_Archivos/Linux%20a%20Windows.md)
   * **📂 Web**
     * **📂 CMS**
@@ -87,6 +90,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [LFI Vulnerability (CVE-2024-23897)](02%20Vulnerabilidades%20y%20Explotacion/Web/Jenkins/LFI%20Vulnerability%20%28CVE-2024-23897%29.md)
     * **📂 Log4j**
         * 📄 [Log4Shell JNDI Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/Log4j/Log4Shell%20JNDI%20Injection.md)
+    * **📂 Node-Red**
+        * 📄 [Node-Red RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Node-Red/Node-Red%20RCE.md)
     * **📂 PortSwigger Labs**
       * **📂 SQL Injection**
           * 📄 [SQLi-01-SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-01-SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data.md)
@@ -151,6 +156,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * 📄 [Exfiltración Datos ICMP](03%20Post%20Explotacion/Exfiltraci%C3%B3n%20Datos/Exfiltraci%C3%B3n%20Datos%20ICMP.md)
   * **📂 Movimiento Lateral**
       * 📄 [Autenticación Kerberos](03%20Post%20Explotacion/Movimiento%20Lateral/Autenticaci%C3%B3n%20Kerberos.md)
+    * **📂 Pivoting**
+        * 📄 [Chisel Pivoting](03%20Post%20Explotacion/Movimiento%20Lateral/Pivoting/Chisel%20Pivoting.md)
   * **📂 Reverse Shells**
       * 📄 [IPv6 Python y Socat](03%20Post%20Explotacion/Reverse%20Shells/IPv6%20Python%20y%20Socat.md)
 
