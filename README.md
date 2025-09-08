@@ -25,7 +25,6 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * 📄 [Advanced Bash Port Scanner](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner.md)
       * 📄 [Nmap IPv6](01%20Reconocimiento/Escaneo%20Puertos/Nmap%20IPv6.md)
       * 📄 [Nmap](01%20Reconocimiento/Escaneo%20Puertos/Nmap.md)
-  * **📂 OSINT**
   * **📂 Servicios**
     * **📂 DNS**
         * 📄 [Brute-Forcing DNS](01%20Reconocimiento/Servicios/DNS/Brute-Forcing%20DNS.md)
@@ -58,6 +57,9 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [Impacket.psExec (Post Credential Compromise)](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Tools/Impacket.psExec%20%28Post%20Credential%20Compromise%29.md)
   * **📂 Crypto**
       * 📄 [OpenSSL Cracking](02%20Vulnerabilidades%20y%20Explotacion/Crypto/OpenSSL%20Cracking.md)
+  * **📂 IoT**
+    * **📂 Printers**
+        * 📄 [LDAP Pass-Back Attack](02%20Vulnerabilidades%20y%20Explotacion/IoT/Printers/LDAP%20Pass-Back%20Attack.md)
   * **📂 SMTP**
       * 📄 [OpenSMTPD RCE (CVE-2020-7247)](02%20Vulnerabilidades%20y%20Explotacion/SMTP/OpenSMTPD%20RCE%20%28CVE-2020-7247%29.md)
   * **📂 Tecnicas Generales**
@@ -143,6 +145,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/KeyTab%20Kerberos%20File.md)
         * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Pivoting%20Kerberos%20k5login.md)
         * 📄 [Sudo Privesc Binarios](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Sudo%20Privesc%20Binarios.md)
+    * **📂 Windows**
+        * 📄 [Server Operator Group](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Windows/Server%20Operator%20Group.md)
   * **📂 Exfiltración Datos**
       * 📄 [Exfiltración Datos ICMP](03%20Post%20Explotacion/Exfiltraci%C3%B3n%20Datos/Exfiltraci%C3%B3n%20Datos%20ICMP.md)
   * **📂 Movimiento Lateral**
