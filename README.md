@@ -98,6 +98,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [SQLi-02-SQL injection vulnerability allowing login bypass](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-02-SQL%20injection%20vulnerability%20allowing%20login%20bypass.md)
           * 📄 [SQLi-03-SQL injection attack, querying the database type and version on Oracle](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-03-SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20Oracle.md)
           * 📄 [SQLi-04-SQL injection attack, querying the database type and version on MySQL and Microsoft](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-04-SQL%20injection%20attack%2C%20querying%20the%20database%20type%20and%20version%20on%20MySQL%20and%20Microsoft.md)
+    * **📂 Redis**
+        * 📄 [RCE via Redis (WebShell PHP)](02%20Vulnerabilidades%20y%20Explotacion/Web/Redis/RCE%20via%20Redis%20%28WebShell%20PHP%29.md)
     * **📂 SQLi**
       * **📂 MSSQL**
           * 📄 [XP DIRTREE NET-NTLM HASH](02%20Vulnerabilidades%20y%20Explotacion/Web/SQLi/MSSQL/XP%20DIRTREE%20NET-NTLM%20HASH.md)
@@ -158,6 +160,7 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * 📄 [Autenticación Kerberos](03%20Post%20Explotacion/Movimiento%20Lateral/Autenticaci%C3%B3n%20Kerberos.md)
     * **📂 Pivoting**
         * 📄 [Chisel Pivoting](03%20Post%20Explotacion/Movimiento%20Lateral/Pivoting/Chisel%20Pivoting.md)
+        * 📄 [Socat Pivoting](03%20Post%20Explotacion/Movimiento%20Lateral/Pivoting/Socat%20Pivoting.md)
   * **📂 Reverse Shells**
       * 📄 [IPv6 Python y Socat](03%20Post%20Explotacion/Reverse%20Shells/IPv6%20Python%20y%20Socat.md)
 
