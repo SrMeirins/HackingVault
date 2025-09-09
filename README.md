@@ -143,21 +143,27 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 Enumeracion BBDD**
         * 📄 [Enumeracion MongoDB](03%20Post%20Explotacion/Enumeracion/Enumeracion%20BBDD/Enumeracion%20MongoDB.md)
     * **📂 Enumeracion Linux**
-        * 📄 [Enumeracion Procesos](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Enumeracion%20Procesos.md)
         * 📄 [Enumeracion Tareas Programadas](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Enumeracion%20Tareas%20Programadas.md)
       * **📂 Credenciales**
           * 📄 [MSMTP Config File](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Credenciales/MSMTP%20Config%20File.md)
+      * **📂 Procesos**
+          * 📄 [Enumeracion Procesos - ps](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Procesos/Enumeracion%20Procesos%20-%20ps.md)
+          * 📄 [PsPy Manual Bash](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Procesos/PsPy%20Manual%20Bash.md)
   * **📂 Escalada de Privilegios**
     * **📂 Linux**
         * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/KeyTab%20Kerberos%20File.md)
         * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Pivoting%20Kerberos%20k5login.md)
         * 📄 [Sudo Privesc Binarios](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Sudo%20Privesc%20Binarios.md)
+      * **📂 WildCards Abuse**
+          * 📄 [Wildcard Rsync](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/WildCards%20Abuse/Wildcard%20Rsync.md)
     * **📂 Windows**
         * 📄 [Server Operator Group](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Windows/Server%20Operator%20Group.md)
   * **📂 Exfiltración Datos**
       * 📄 [Exfiltración Datos ICMP](03%20Post%20Explotacion/Exfiltraci%C3%B3n%20Datos/Exfiltraci%C3%B3n%20Datos%20ICMP.md)
   * **📂 Movimiento Lateral**
       * 📄 [Autenticación Kerberos](03%20Post%20Explotacion/Movimiento%20Lateral/Autenticaci%C3%B3n%20Kerberos.md)
+    * **📂 Docker**
+        * 📄 [Container Escaped Privileged](03%20Post%20Explotacion/Movimiento%20Lateral/Docker/Container%20Escaped%20Privileged.md)
     * **📂 Pivoting**
         * 📄 [Chisel Pivoting](03%20Post%20Explotacion/Movimiento%20Lateral/Pivoting/Chisel%20Pivoting.md)
         * 📄 [Socat Pivoting](03%20Post%20Explotacion/Movimiento%20Lateral/Pivoting/Socat%20Pivoting.md)

