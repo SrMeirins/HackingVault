@@ -32,6 +32,7 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [Brute-Forcing DNS](01%20Reconocimiento/Servicios/DNS/Brute-Forcing%20DNS.md)
         * 📄 [Enumeracion con Dig y NSLookUp](01%20Reconocimiento/Servicios/DNS/Enumeracion%20con%20Dig%20y%20NSLookUp.md)
         * 📄 [Reverse DNS Lookup](01%20Reconocimiento/Servicios/DNS/Reverse%20DNS%20Lookup.md)
+        * 📄 [prueba](01%20Reconocimiento/Servicios/DNS/prueba.md)
     * **📂 HTTP**
       * **📂 Proxy**
           * 📄 [Squid Proxy (Port 3128)](01%20Reconocimiento/Servicios/HTTP/Proxy/Squid%20Proxy%20%28Port%203128%29.md)
