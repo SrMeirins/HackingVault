@@ -138,6 +138,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [XSS Reflejado en Contexto HTML sin Codificación](02%20Vulnerabilidades%20y%20Explotacion/Web/XSS/Reflejado/XSS%20Reflejado%20en%20Contexto%20HTML%20sin%20Codificaci%C3%B3n.md)
     * **📂 XXE**
         * 📄 [Exfiltracion Archivos Locales](02%20Vulnerabilidades%20y%20Explotacion/Web/XXE/Exfiltracion%20Archivos%20Locales.md)
+    * **📂 js2py lib**
+        * 📄 [js2py RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/js2py%20lib/js2py%20RCE.md)
 * **📂 03 Post Explotacion**
   * **📂 Enumeracion**
     * **📂 Enumeracion BBDD**
@@ -151,9 +153,12 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [PsPy Manual Bash](03%20Post%20Explotacion/Enumeracion/Enumeracion%20Linux/Procesos/PsPy%20Manual%20Bash.md)
   * **📂 Escalada de Privilegios**
     * **📂 Linux**
-        * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/KeyTab%20Kerberos%20File.md)
-        * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Pivoting%20Kerberos%20k5login.md)
         * 📄 [Sudo Privesc Binarios](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Sudo%20Privesc%20Binarios.md)
+      * **📂 Backup Software**
+          * 📄 [Sudo npbackup-cli](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Backup%20Software/Sudo%20npbackup-cli.md)
+      * **📂 Kerberos**
+          * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Kerberos/KeyTab%20Kerberos%20File.md)
+          * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Kerberos/Pivoting%20Kerberos%20k5login.md)
       * **📂 WildCards Abuse**
           * 📄 [Wildcard Rsync](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/WildCards%20Abuse/Wildcard%20Rsync.md)
     * **📂 Windows**
