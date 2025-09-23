@@ -83,6 +83,10 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 Fuzzing**
       * **📂 Directories**
           * 📄 [GoBuster](02%20Vulnerabilidades%20y%20Explotacion/Web/Fuzzing/Directories/GoBuster.md)
+      * **📂 Subdomains**
+          * 📄 [Gobuster](02%20Vulnerabilidades%20y%20Explotacion/Web/Fuzzing/Subdomains/Gobuster.md)
+    * **📂 Grafana**
+        * 📄 [CVE-2024-9264 DuckDB RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Grafana/CVE-2024-9264%20DuckDB%20RCE.md)
     * **📂 H2 Database**
         * 📄 [Command Execution via JDBC URL Manipulation](02%20Vulnerabilidades%20y%20Explotacion/Web/H2%20Database/Command%20Execution%20via%20JDBC%20URL%20Manipulation.md)
     * **📂 Jenkins**
