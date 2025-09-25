@@ -68,6 +68,9 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 Transferencia_Archivos**
         * 📄 [Linux a Linux](02%20Vulnerabilidades%20y%20Explotacion/Tecnicas%20Generales/Transferencia_Archivos/Linux%20a%20Linux.md)
         * 📄 [Linux a Windows](02%20Vulnerabilidades%20y%20Explotacion/Tecnicas%20Generales/Transferencia_Archivos/Linux%20a%20Windows.md)
+  * **📂 UDP**
+    * **📂 IKE**
+        * 📄 [IKE PSK Cracking](02%20Vulnerabilidades%20y%20Explotacion/UDP/IKE/IKE%20PSK%20Cracking.md)
   * **📂 Web**
     * **📂 CMS**
       * **📂 Drupal**
@@ -140,6 +143,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [Ataque Reflected XSS en Atributo con Ángulos HTML-Encoded](02%20Vulnerabilidades%20y%20Explotacion/Web/XSS/Reflejado/Ataque%20Reflected%20XSS%20en%20Atributo%20con%20%C3%81ngulos%20HTML-Encoded.md)
           * 📄 [Reflect XSS en una Cadena JavaScript con Ángulos HTML-Encoded](02%20Vulnerabilidades%20y%20Explotacion/Web/XSS/Reflejado/Reflect%20XSS%20en%20una%20Cadena%20JavaScript%20con%20%C3%81ngulos%20HTML-Encoded.md)
           * 📄 [XSS Reflejado en Contexto HTML sin Codificación](02%20Vulnerabilidades%20y%20Explotacion/Web/XSS/Reflejado/XSS%20Reflejado%20en%20Contexto%20HTML%20sin%20Codificaci%C3%B3n.md)
+    * **📂 XWiki**
+        * 📄 [XWiki RCE CVE-2025-24893](02%20Vulnerabilidades%20y%20Explotacion/Web/XWiki/XWiki%20RCE%20CVE-2025-24893.md)
     * **📂 XXE**
         * 📄 [Exfiltracion Archivos Locales](02%20Vulnerabilidades%20y%20Explotacion/Web/XXE/Exfiltracion%20Archivos%20Locales.md)
     * **📂 js2py lib**
