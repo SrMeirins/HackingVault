@@ -168,6 +168,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * **📂 Kerberos**
           * 📄 [KeyTab Kerberos File](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Kerberos/KeyTab%20Kerberos%20File.md)
           * 📄 [Pivoting Kerberos k5login](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Kerberos/Pivoting%20Kerberos%20k5login.md)
+      * **📂 Netdata**
+          * 📄 [Ndsudo Netdata SUID](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Netdata/Ndsudo%20Netdata%20SUID.md)
       * **📂 WildCards Abuse**
           * 📄 [Wildcard Rsync](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/WildCards%20Abuse/Wildcard%20Rsync.md)
     * **📂 Windows**
