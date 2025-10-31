@@ -128,6 +128,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [XML Encoding SQLi](02%20Vulnerabilidades%20y%20Explotacion/Web/SQLi/WAF%20ByPassing/XML%20Encoding%20SQLi.md)
     * **📂 Type_Juggling**
         * 📄 [Type Juggling con strcmp en PHP](02%20Vulnerabilidades%20y%20Explotacion/Web/Type_Juggling/Type%20Juggling%20con%20strcmp%20en%20PHP.md)
+    * **📂 XSLT Injection**
+        * 📄 [XSLT Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/XSLT%20Injection/XSLT%20Injection.md)
     * **📂 XSS**
       * **📂 Almacenado**
           * 📄 [Stored XSS en Contexto HTML sin Codificación](02%20Vulnerabilidades%20y%20Explotacion/Web/XSS/Almacenado/Stored%20XSS%20en%20Contexto%20HTML%20sin%20Codificaci%C3%B3n.md)
