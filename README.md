@@ -20,6 +20,7 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
 
 [//]: # (HACKING_VAULT_INDEX_START)
 
+* **📂 .obsidian**
 * **📂 01 Reconocimiento**
   * **📂 Escaneo Puertos**
       * 📄 [Advanced Bash Port Scanner through ProxyChains](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner%20through%20ProxyChains.md)
@@ -81,6 +82,21 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * **📂 WordPress**
         * **📂 Reconocimiento**
             * 📄 [Fuzzing Plugins (WFUZZ)](02%20Vulnerabilidades%20y%20Explotacion/Web/CMS/WordPress/Reconocimiento/Fuzzing%20Plugins%20%28WFUZZ%29.md)
+    * **📂 File Inclusion**
+      * **📂 Automatización**
+          * 📄 [Automatización en la detección y explotación de LFI](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/Automatizaci%C3%B3n/Automatizaci%C3%B3n%20en%20la%20detecci%C3%B3n%20y%20explotaci%C3%B3n%20de%20LFI.md)
+      * **📂 LFI**
+          * 📄 [Introducción](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/Introducci%C3%B3n.md)
+          * 📄 [LFI (Local File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20%28Local%20File%20Inclusion%29.md)
+          * 📄 [LFI + PHP Filters](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20%2B%20PHP%20Filters.md)
+          * 📄 [LFI - Bypasses Básicos](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20-%20Bypasses%20B%C3%A1sicos.md)
+      * **📂 LFI to RCE**
+          * 📄 [LFI + Subida de Archivos](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/LFI%20%2B%20Subida%20de%20Archivos.md)
+          * 📄 [LFI → RCE con PHP Wrappers](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/LFI%20%E2%86%92%20RCE%20con%20PHP%20Wrappers.md)
+          * 📄 [Log Poisoning](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/Log%20Poisoning.md)
+          * 📄 [RFI (Remote File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/RFI%20%28Remote%20File%20Inclusion%29.md)
+      * **📂 Prevención**
+          * 📄 [Prevención de File Inclusion](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/Prevenci%C3%B3n/Prevenci%C3%B3n%20de%20File%20Inclusion.md)
     * **📂 File Upload**
         * 📄 [WebShells](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Upload/WebShells.md)
     * **📂 Fuzzing**

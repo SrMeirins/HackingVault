@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "32da80bf40279071",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d168980587bfcaa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa72362cfce0250d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI/LFI + PHP Filters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LFI + PHP Filters"
+            }
+          },
+          {
+            "id": "dbe077cc12f978f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/LFI → RCE con PHP Wrappers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LFI → RCE con PHP Wrappers"
+            }
+          },
+          {
+            "id": "b30f5dbcd475d0cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/RFI (Remote File Inclusion).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RFI (Remote File Inclusion)"
+            }
+          },
+          {
+            "id": "2230ebc739f46a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/LFI + Subida de Archivos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LFI + Subida de Archivos"
+            }
+          },
+          {
+            "id": "6864e5e60a20664b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/Log Poisoning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Log Poisoning"
+            }
+          },
+          {
+            "id": "7f37f39c25247233",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Automatización/Automatización en la detección y explotación de LFI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automatización en la detección y explotación de LFI"
+            }
+          },
+          {
+            "id": "602174935f6fee70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención/Prevención de File Inclusion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Prevención de File Inclusion"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bc5f16158f7803b",
+    "type": "split",
+    "children": [
+      {
+        "id": "42db6294f27b289d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "971656a8885f7230",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "e0e1c3fd2e02d8c1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "6f6605374cc9372a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c528cf44094ee183",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccb4f2bc97be6316",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9d9676b269e732df",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención/Prevención de File Inclusion.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Prevención de File Inclusion"
+            }
+          },
+          {
+            "id": "446e914f626f5e25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención/Prevención de File Inclusion.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Prevención de File Inclusion"
+            }
+          },
+          {
+            "id": "17bc9309a95a63c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "c05faec8cb0ed64d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención/Prevención de File Inclusion.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Prevención de File Inclusion"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "602174935f6fee70",
+  "lastOpenFiles": [
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Automatización/Automatización en la detección y explotación de LFI.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención/Prevención de File Inclusion.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Prevención",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/Log Poisoning.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/Automatización",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/LFI + Subida de Archivos.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/RFI (Remote File Inclusion).md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE/LFI → RCE con PHP Wrappers.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI/LFI + PHP Filters.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI to RCE",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI/LFI (Local File Inclusion).md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI/LFI - Bypasses Básicos.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion/LFI/Introducción.md",
+    "02 Vulnerabilidades y Explotacion/Web/File Inclusion"
+  ]
+}
