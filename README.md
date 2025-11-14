@@ -20,7 +20,6 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
 
 [//]: # (HACKING_VAULT_INDEX_START)
 
-* **📂 .obsidian**
 * **📂 01 Reconocimiento**
   * **📂 Escaneo Puertos**
       * 📄 [Advanced Bash Port Scanner through ProxyChains](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner%20through%20ProxyChains.md)
