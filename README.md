@@ -20,6 +20,34 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
 
 [//]: # (HACKING_VAULT_INDEX_START)
 
+* **📂 00 Fundamentos**
+  * **📂 Networking**
+      * 📄 [Networking Overview](00%20Fundamentos/Networking/Networking%20Overview.md)
+    * **📂 Addressing**
+        * 📄 [Direcciones IPv4](00%20Fundamentos/Networking/Addressing/Direcciones%20IPv4.md)
+        * 📄 [Direcciones IPv6](00%20Fundamentos/Networking/Addressing/Direcciones%20IPv6.md)
+        * 📄 [Direcciones MAC](00%20Fundamentos/Networking/Addressing/Direcciones%20MAC.md)
+        * 📄 [Network Layer](00%20Fundamentos/Networking/Addressing/Network%20Layer.md)
+        * 📄 [Subnetting](00%20Fundamentos/Networking/Addressing/Subnetting.md)
+    * **📂 Establecimiento de Conexiones**
+        * 📄 [Criptografía](00%20Fundamentos/Networking/Establecimiento%20de%20Conexiones/Criptograf%C3%ADa.md)
+        * 📄 [Key Exchange Mechanisms](00%20Fundamentos/Networking/Establecimiento%20de%20Conexiones/Key%20Exchange%20Mechanisms.md)
+        * 📄 [Protocolos de Autenticación](00%20Fundamentos/Networking/Establecimiento%20de%20Conexiones/Protocolos%20de%20Autenticaci%C3%B3n.md)
+        * 📄 [TCP-UDP Connections & IP Networking](00%20Fundamentos/Networking/Establecimiento%20de%20Conexiones/TCP-UDP%20Connections%20%26%20IP%20Networking.md)
+    * **📂 Estructura**
+        * 📄 [Proxies](00%20Fundamentos/Networking/Estructura/Proxies.md)
+        * 📄 [Tipos de Redes](00%20Fundamentos/Networking/Estructura/Tipos%20de%20Redes.md)
+        * 📄 [Topologías de Red](00%20Fundamentos/Networking/Estructura/Topolog%C3%ADas%20de%20Red.md)
+    * **📂 Protocolos y Terminología**
+        * 📄 [Protocolos Comunes](00%20Fundamentos/Networking/Protocolos%20y%20Terminolog%C3%ADa/Protocolos%20Comunes.md)
+        * 📄 [Redes Inalambricas](00%20Fundamentos/Networking/Protocolos%20y%20Terminolog%C3%ADa/Redes%20Inalambricas.md)
+        * 📄 [Redes Privadas Virtuales (VPN)](00%20Fundamentos/Networking/Protocolos%20y%20Terminolog%C3%ADa/Redes%20Privadas%20Virtuales%20%28VPN%29.md)
+        * 📄 [Terminología Clave en Redes](00%20Fundamentos/Networking/Protocolos%20y%20Terminolog%C3%ADa/Terminolog%C3%ADa%20Clave%20en%20Redes.md)
+        * 📄 [Vendor Specific + VLANs](00%20Fundamentos/Networking/Protocolos%20y%20Terminolog%C3%ADa/Vendor%20Specific%20%2B%20VLANs.md)
+    * **📂 Workflow**
+        * 📄 [Modelo OSI](00%20Fundamentos/Networking/Workflow/Modelo%20OSI.md)
+        * 📄 [Modelo TCP-IP](00%20Fundamentos/Networking/Workflow/Modelo%20TCP-IP.md)
+        * 📄 [Modelos de Redes](00%20Fundamentos/Networking/Workflow/Modelos%20de%20Redes.md)
 * **📂 01 Reconocimiento**
   * **📂 Escaneo Puertos**
       * 📄 [Advanced Bash Port Scanner through ProxyChains](01%20Reconocimiento/Escaneo%20Puertos/Advanced%20Bash%20Port%20Scanner%20through%20ProxyChains.md)
