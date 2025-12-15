@@ -95,6 +95,11 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * **📂 Fundamentos ( HTB Academy)**
         * **📂 Android App Components + Interprocess Communication**
             * 📄 [Activities](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Activities.md)
+            * 📄 [Binders](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Binders.md)
+            * 📄 [Broadcast Receivers](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Broadcast%20Receivers.md)
+            * 📄 [Content Providers](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Content%20Providers.md)
+            * 📄 [Deep Links](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Deep%20Links.md)
+            * 📄 [Intents](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Intents.md)
             * 📄 [Services](02%20Vulnerabilidades%20y%20Explotacion/Mobile/Android/Fundamentos%20%28%20HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Services.md)
           * **📂 Assets**
         * **📂 Android Apps & Development**
