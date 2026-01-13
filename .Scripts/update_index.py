@@ -4,7 +4,7 @@ import urllib.parse
 # --- Configuración ---
 REPO_ROOT = '..'
 README_FILE = os.path.join(REPO_ROOT, 'README.md')
-EXCLUDE_DIRS = ['.git', '.github', '.Scripts', '.obsidian']
+EXCLUDE_DIRS = ['.git', '.github', '.Scripts', '.obsidian', 'Assets']
 EXCLUDE_FILES = ['README.md']
 
 # --- Marcadores (Visibles en editor, invisibles en GitHub) ---

@@ -30,21 +30,18 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [Deep Links](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Deep%20Links.md)
         * 📄 [Intents](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Intents.md)
         * 📄 [Services](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Services.md)
-      * **📂 Assets**
-      * **📂 Introducción**
-          * 📄 [About](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Introducci%C3%B3n/About.md)
-          * 📄 [Android Operating System – Arquitectura Interna y Fundamentos Técnicos](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20App%20Components%20%2B%20Interprocess%20Communication/Introducci%C3%B3n/Android%20Operating%20System%20%E2%80%93%20Arquitectura%20Interna%20y%20Fundamentos%20T%C3%A9cnicos.md)
     * **📂 Android Apps & Development**
         * 📄 [Android Studio](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20Development/Android%20Studio.md)
         * 📄 [Application Frameworks en Android](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20Development/Application%20Frameworks%20en%20Android.md)
         * 📄 [JavaScript y WebViews en Android](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20Development/JavaScript%20y%20WebViews%20en%20Android.md)
         * 📄 [Native Apps](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20Development/Native%20Apps.md)
         * 📄 [Native Code](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20Development/Native%20Code.md)
-      * **📂 Assets**
     * **📂 Android Apps & OS Security**
         * 📄 [APK Estructura](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20OS%20Security/APK%20Estructura.md)
         * 📄 [Android Security Features](00%20Fundamentos/Android%20%28HTB%20Academy%29/Android%20Apps%20%26%20OS%20Security/Android%20Security%20Features.md)
-      * **📂 Assets**
+    * **📂 Introducción**
+        * 📄 [About](00%20Fundamentos/Android%20%28HTB%20Academy%29/Introducci%C3%B3n/About.md)
+        * 📄 [Android Operating System – Arquitectura Interna y Fundamentos Técnicos](00%20Fundamentos/Android%20%28HTB%20Academy%29/Introducci%C3%B3n/Android%20Operating%20System%20%E2%80%93%20Arquitectura%20Interna%20y%20Fundamentos%20T%C3%A9cnicos.md)
   * **📂 Networking (HTB Academy)**
       * 📄 [Networking Overview](00%20Fundamentos/Networking%20%28HTB%20Academy%29/Networking%20Overview.md)
     * **📂 Addressing**
