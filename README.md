@@ -174,6 +174,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [SQLi-08-SQL injection UNION attack, finding a column containing text](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-08-SQL%20injection%20UNION%20attack%2C%20finding%20a%20column%20containing%20text.md)
           * 📄 [SQLi-09-SQL injection UNION attack, retrieving data from other tables](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-09-SQL%20injection%20UNION%20attack%2C%20retrieving%20data%20from%20other%20tables.md)
           * 📄 [SQLi-10-SQL injection UNION attack, retrieving multiple values in a single column](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-10-SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column.md)
+          * 📄 [SQLi-11-Blind SQL injection with conditional responses](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-11-Blind%20SQL%20injection%20with%20conditional%20responses.md)
+          * 📄 [SQLi-12-Blind SQL injection with conditional errors](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-12-Blind%20SQL%20injection%20with%20conditional%20errors.md)
     * **📂 Redis**
       * **📂 RCE**
           * 📄 [RCE via Redis (WebShell PHP)](02%20Vulnerabilidades%20y%20Explotacion/Web/Redis/RCE/RCE%20via%20Redis%20%28WebShell%20PHP%29.md)
