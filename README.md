@@ -97,16 +97,6 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 SNMP**
         * 📄 [Enumeración SNMP](01%20Reconocimiento/Servicios/SNMP/Enumeraci%C3%B3n%20SNMP.md)
 * **📂 02 Vulnerabilidades y Explotacion**
-  * **📂 Active_Directory**
-    * **📂 Attacks**
-        * 📄 [Acceso y Extracción de Contraseñas desde SYSVOL](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/Acceso%20y%20Extracci%C3%B3n%20de%20Contrase%C3%B1as%20desde%20SYSVOL.md)
-        * 📄 [DC Sync Attack](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/DC%20Sync%20Attack.md)
-        * 📄 [Explotación de Servicios de Certificados (AD CS) para Obtener Acceso por WinRM](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/Explotaci%C3%B3n%20de%20Servicios%20de%20Certificados%20%28AD%20CS%29%20para%20Obtener%20Acceso%20por%20WinRM.md)
-        * 📄 [Kerberoasting](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/Kerberoasting.md)
-        * 📄 [PassTheHass](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/PassTheHass.md)
-        * 📄 [SCF Malicious File Attack](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Attacks/SCF%20Malicious%20File%20Attack.md)
-    * **📂 Tools**
-        * 📄 [Bloodhound-Python (Ingestor)](02%20Vulnerabilidades%20y%20Explotacion/Active_Directory/Tools/Bloodhound-Python%20%28Ingestor%29.md)
   * **📂 Crypto**
       * 📄 [OpenSSL Cracking](02%20Vulnerabilidades%20y%20Explotacion/Crypto/OpenSSL%20Cracking.md)
   * **📂 IKE**
@@ -191,6 +181,19 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 js2py lib**
       * **📂 RCE**
           * 📄 [js2py RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/js2py%20lib/RCE/js2py%20RCE.md)
+  * **📂 Windows**
+    * **📂 Active_Directory**
+      * **📂 Attacks**
+          * 📄 [Acceso y Extracción de Contraseñas desde SYSVOL](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/Acceso%20y%20Extracci%C3%B3n%20de%20Contrase%C3%B1as%20desde%20SYSVOL.md)
+          * 📄 [DC Sync Attack](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/DC%20Sync%20Attack.md)
+          * 📄 [Explotación de Servicios de Certificados (AD CS) para Obtener Acceso por WinRM](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/Explotaci%C3%B3n%20de%20Servicios%20de%20Certificados%20%28AD%20CS%29%20para%20Obtener%20Acceso%20por%20WinRM.md)
+          * 📄 [Kerberoasting](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/Kerberoasting.md)
+          * 📄 [PassTheHass](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/PassTheHass.md)
+          * 📄 [SCF Malicious File Attack](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Attacks/SCF%20Malicious%20File%20Attack.md)
+      * **📂 Tools**
+          * 📄 [Bloodhound-Python (Ingestor)](02%20Vulnerabilidades%20y%20Explotacion/Windows/Active_Directory/Tools/Bloodhound-Python%20%28Ingestor%29.md)
+    * **📂 DLLs**
+        * 📄 [DLL Search Order Hijacking por DLL faltante (Proxy DLL)](02%20Vulnerabilidades%20y%20Explotacion/Windows/DLLs/DLL%20Search%20Order%20Hijacking%20por%20DLL%20faltante%20%28Proxy%20DLL%29.md)
 * **📂 03 Post Explotacion**
   * **📂 Enumeracion**
     * **📂 Enumeracion BBDD**
