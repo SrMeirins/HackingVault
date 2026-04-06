@@ -23,7 +23,8 @@ Si tenemos acceso al sistema de archivos de Drupal, podemos buscar credenciales 
 grep -r "password" | less -S
 ```
 
-### **Explicación de los argumentos:**  
+### **Explicación de los argumentos:**
+
 - **`grep -r "password"`** → Busca de forma recursiva cualquier línea que contenga la palabra "password".  
 - **`| less -S`** → Permite desplazarnos horizontalmente sin cortar las líneas largas.  
 
@@ -33,7 +34,8 @@ Si obtenemos acceso al archivo, podemos leerlo directamente con:
 cat sites/default/settings.php | grep -i 'db'
 ```
 
-Este comando nos mostrará las líneas relacionadas con la configuración de la base de datos, incluyendo:  
+Este comando nos mostrará las líneas relacionadas con la configuración de la base de datos, incluyendo:
+
 - **Usuario de la base de datos**  
 - **Contraseña**  
 - **Host y nombre de la base de datos**  

@@ -84,6 +84,14 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
         * 📄 [Enumeracion con Dig y NSLookUp](01%20Reconocimiento/Servicios/DNS/Enumeracion%20con%20Dig%20y%20NSLookUp.md)
         * 📄 [Reverse DNS Lookup](01%20Reconocimiento/Servicios/DNS/Reverse%20DNS%20Lookup.md)
     * **📂 HTTP**
+      * **📂 CMS**
+        * **📂 WordPress**
+            * 📄 [Fuzzing Plugins (WFUZZ)](01%20Reconocimiento/Servicios/HTTP/CMS/WordPress/Fuzzing%20Plugins%20%28WFUZZ%29.md)
+      * **📂 Fuzzing**
+        * **📂 Directories**
+            * 📄 [GoBuster](01%20Reconocimiento/Servicios/HTTP/Fuzzing/Directories/GoBuster.md)
+        * **📂 Subdomains**
+            * 📄 [Gobuster](01%20Reconocimiento/Servicios/HTTP/Fuzzing/Subdomains/Gobuster.md)
       * **📂 Proxy**
           * 📄 [Squid Proxy (Port 3128)](01%20Reconocimiento/Servicios/HTTP/Proxy/Squid%20Proxy%20%28Port%203128%29.md)
           * 📄 [WPAD File](01%20Reconocimiento/Servicios/HTTP/Proxy/WPAD%20File.md)
@@ -108,50 +116,58 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
     * **📂 CVEs**
         * 📄 [OpenSMTPD RCE (CVE-2020-7247)](02%20Vulnerabilidades%20y%20Explotacion/SMTP/CVEs/OpenSMTPD%20RCE%20%28CVE-2020-7247%29.md)
   * **📂 Web**
+    * **📂 00_Teoría & Conceptos**
+      * **📂 File Inclusion**
+        * **📂 Automatización**
+            * 📄 [Automatización en la detección y explotación de LFI](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/Automatizaci%C3%B3n/Automatizaci%C3%B3n%20en%20la%20detecci%C3%B3n%20y%20explotaci%C3%B3n%20de%20LFI.md)
+        * **📂 LFI**
+            * 📄 [Introducción](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI/Introducci%C3%B3n.md)
+            * 📄 [LFI (Local File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI/LFI%20%28Local%20File%20Inclusion%29.md)
+            * 📄 [LFI + PHP Filters](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI/LFI%20%2B%20PHP%20Filters.md)
+            * 📄 [LFI - Bypasses Básicos](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI/LFI%20-%20Bypasses%20B%C3%A1sicos.md)
+        * **📂 LFI to RCE**
+            * 📄 [LFI + Subida de Archivos](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI%20to%20RCE/LFI%20%2B%20Subida%20de%20Archivos.md)
+            * 📄 [LFI → RCE con PHP Wrappers](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI%20to%20RCE/LFI%20%E2%86%92%20RCE%20con%20PHP%20Wrappers.md)
+            * 📄 [Log Poisoning](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI%20to%20RCE/Log%20Poisoning.md)
+            * 📄 [RFI (Remote File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/LFI%20to%20RCE/RFI%20%28Remote%20File%20Inclusion%29.md)
+        * **📂 Prevención**
+            * 📄 [Prevención de File Inclusion](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/File%20Inclusion/Prevenci%C3%B3n/Prevenci%C3%B3n%20de%20File%20Inclusion.md)
+      * **📂 Type_Juggling**
+          * 📄 [Type Juggling con strcmp en PHP](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/Type_Juggling/Type%20Juggling%20con%20strcmp%20en%20PHP.md)
+      * **📂 XXE**
+          * 📄 [Exfiltracion Archivos Locales](02%20Vulnerabilidades%20y%20Explotacion/Web/00_Teor%C3%ADa%20%26%20Conceptos/XXE/Exfiltracion%20Archivos%20Locales.md)
+    * **📂 Bases de Datos**
+      * **📂 H2 Database**
+        * **📂 RCE**
+            * 📄 [Command Execution via JDBC URL Manipulation](02%20Vulnerabilidades%20y%20Explotacion/Web/Bases%20de%20Datos/H2%20Database/RCE/Command%20Execution%20via%20JDBC%20URL%20Manipulation.md)
+      * **📂 Redis**
+        * **📂 RCE**
+            * 📄 [RCE via Redis (WebShell PHP)](02%20Vulnerabilidades%20y%20Explotacion/Web/Bases%20de%20Datos/Redis/RCE/RCE%20via%20Redis%20%28WebShell%20PHP%29.md)
+    * **📂 CI-CD & DevOps**
+      * **📂 Jenkins**
+          * 📄 [Jenkins Secret Decryption via Script Console](02%20Vulnerabilidades%20y%20Explotacion/Web/CI-CD%20%26%20DevOps/Jenkins/Jenkins%20Secret%20Decryption%20via%20Script%20Console.md)
+        * **📂 CVEs**
+            * 📄 [LFI Vulnerability (CVE-2024-23897)](02%20Vulnerabilidades%20y%20Explotacion/Web/CI-CD%20%26%20DevOps/Jenkins/CVEs/LFI%20Vulnerability%20%28CVE-2024-23897%29.md)
     * **📂 CMS**
       * **📂 Drupal**
         * **📂 Attacks**
             * 📄 [RCE PHP Filter](02%20Vulnerabilidades%20y%20Explotacion/Web/CMS/Drupal/Attacks/RCE%20PHP%20Filter.md)
         * **📂 Extracción Credenciales**
             * 📄 [DB Credentials Extraction](02%20Vulnerabilidades%20y%20Explotacion/Web/CMS/Drupal/Extracci%C3%B3n%20Credenciales/DB%20Credentials%20Extraction.md)
-      * **📂 WordPress**
-        * **📂 Reconocimiento**
-            * 📄 [Fuzzing Plugins (WFUZZ)](02%20Vulnerabilidades%20y%20Explotacion/Web/CMS/WordPress/Reconocimiento/Fuzzing%20Plugins%20%28WFUZZ%29.md)
-    * **📂 File Inclusion**
-      * **📂 Automatización**
-          * 📄 [Automatización en la detección y explotación de LFI](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/Automatizaci%C3%B3n/Automatizaci%C3%B3n%20en%20la%20detecci%C3%B3n%20y%20explotaci%C3%B3n%20de%20LFI.md)
-      * **📂 LFI**
-          * 📄 [Introducción](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/Introducci%C3%B3n.md)
-          * 📄 [LFI (Local File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20%28Local%20File%20Inclusion%29.md)
-          * 📄 [LFI + PHP Filters](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20%2B%20PHP%20Filters.md)
-          * 📄 [LFI - Bypasses Básicos](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI/LFI%20-%20Bypasses%20B%C3%A1sicos.md)
-      * **📂 LFI to RCE**
-          * 📄 [LFI + Subida de Archivos](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/LFI%20%2B%20Subida%20de%20Archivos.md)
-          * 📄 [LFI → RCE con PHP Wrappers](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/LFI%20%E2%86%92%20RCE%20con%20PHP%20Wrappers.md)
-          * 📄 [Log Poisoning](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/Log%20Poisoning.md)
-          * 📄 [RFI (Remote File Inclusion)](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/LFI%20to%20RCE/RFI%20%28Remote%20File%20Inclusion%29.md)
-      * **📂 Prevención**
-          * 📄 [Prevención de File Inclusion](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Inclusion/Prevenci%C3%B3n/Prevenci%C3%B3n%20de%20File%20Inclusion.md)
-    * **📂 Fuzzing**
-      * **📂 Directories**
-          * 📄 [GoBuster](02%20Vulnerabilidades%20y%20Explotacion/Web/Fuzzing/Directories/GoBuster.md)
-      * **📂 Subdomains**
-          * 📄 [Gobuster](02%20Vulnerabilidades%20y%20Explotacion/Web/Fuzzing/Subdomains/Gobuster.md)
-    * **📂 Grafana**
-      * **📂 CVEs**
-          * 📄 [CVE-2024-9264 DuckDB RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Grafana/CVEs/CVE-2024-9264%20DuckDB%20RCE.md)
-    * **📂 H2 Database**
-      * **📂 RCE**
-          * 📄 [Command Execution via JDBC URL Manipulation](02%20Vulnerabilidades%20y%20Explotacion/Web/H2%20Database/RCE/Command%20Execution%20via%20JDBC%20URL%20Manipulation.md)
-    * **📂 Jenkins**
-        * 📄 [Jenkins Secret Decryption via Script Console](02%20Vulnerabilidades%20y%20Explotacion/Web/Jenkins/Jenkins%20Secret%20Decryption%20via%20Script%20Console.md)
-      * **📂 CVEs**
-          * 📄 [LFI Vulnerability (CVE-2024-23897)](02%20Vulnerabilidades%20y%20Explotacion/Web/Jenkins/CVEs/LFI%20Vulnerability%20%28CVE-2024-23897%29.md)
-    * **📂 Log4j**
-        * 📄 [Log4Shell JNDI Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/Log4j/Log4Shell%20JNDI%20Injection.md)
-    * **📂 Node-Red**
-      * **📂 RCE**
-          * 📄 [Node-Red RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Node-Red/RCE/Node-Red%20RCE.md)
+    * **📂 File Upload**
+      * **📂 XSLT Injection**
+          * 📄 [XSLT Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/File%20Upload/XSLT%20Injection/XSLT%20Injection.md)
+    * **📂 Libs & Dependencies**
+      * **📂 js2py lib**
+        * **📂 RCE**
+            * 📄 [js2py RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Libs%20%26%20Dependencies/js2py%20lib/RCE/js2py%20RCE.md)
+    * **📂 Monitoring & Dashboards**
+      * **📂 Grafana**
+        * **📂 CVEs**
+            * 📄 [CVE-2024-9264 DuckDB RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Monitoring%20%26%20Dashboards/Grafana/CVEs/CVE-2024-9264%20DuckDB%20RCE.md)
+      * **📂 Node-Red**
+        * **📂 RCE**
+            * 📄 [Node-Red RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Monitoring%20%26%20Dashboards/Node-Red/RCE/Node-Red%20RCE.md)
     * **📂 PortSwigger Labs**
       * **📂 SQL Injection**
           * 📄 [SQLi-01-SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-01-SQL%20injection%20vulnerability%20in%20WHERE%20clause%20allowing%20retrieval%20of%20hidden%20data.md)
@@ -166,21 +182,13 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [SQLi-10-SQL injection UNION attack, retrieving multiple values in a single column](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-10-SQL%20injection%20UNION%20attack%2C%20retrieving%20multiple%20values%20in%20a%20single%20column.md)
           * 📄 [SQLi-11-Blind SQL injection with conditional responses](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-11-Blind%20SQL%20injection%20with%20conditional%20responses.md)
           * 📄 [SQLi-12-Blind SQL injection with conditional errors](02%20Vulnerabilidades%20y%20Explotacion/Web/PortSwigger%20Labs/SQL%20Injection/SQLi-12-Blind%20SQL%20injection%20with%20conditional%20errors.md)
-    * **📂 Redis**
-      * **📂 RCE**
-          * 📄 [RCE via Redis (WebShell PHP)](02%20Vulnerabilidades%20y%20Explotacion/Web/Redis/RCE/RCE%20via%20Redis%20%28WebShell%20PHP%29.md)
-    * **📂 Type_Juggling**
-        * 📄 [Type Juggling con strcmp en PHP](02%20Vulnerabilidades%20y%20Explotacion/Web/Type_Juggling/Type%20Juggling%20con%20strcmp%20en%20PHP.md)
-    * **📂 XSLT Injection**
-        * 📄 [XSLT Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/XSLT%20Injection/XSLT%20Injection.md)
-    * **📂 XWiki**
-      * **📂 CVEs**
-          * 📄 [XWiki RCE CVE-2025-24893](02%20Vulnerabilidades%20y%20Explotacion/Web/XWiki/CVEs/XWiki%20RCE%20CVE-2025-24893.md)
-    * **📂 XXE**
-        * 📄 [Exfiltracion Archivos Locales](02%20Vulnerabilidades%20y%20Explotacion/Web/XXE/Exfiltracion%20Archivos%20Locales.md)
-    * **📂 js2py lib**
-      * **📂 RCE**
-          * 📄 [js2py RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/js2py%20lib/RCE/js2py%20RCE.md)
+    * **📂 Vulnerabilidades Genéricas**
+      * **📂 Log4j**
+          * 📄 [Log4Shell JNDI Injection](02%20Vulnerabilidades%20y%20Explotacion/Web/Vulnerabilidades%20Gen%C3%A9ricas/Log4j/Log4Shell%20JNDI%20Injection.md)
+    * **📂 Wikis & Collaboration**
+      * **📂 XWiki**
+        * **📂 CVEs**
+            * 📄 [XWiki RCE CVE-2025-24893](02%20Vulnerabilidades%20y%20Explotacion/Web/Wikis%20%26%20Collaboration/XWiki/CVEs/XWiki%20RCE%20CVE-2025-24893.md)
   * **📂 Windows**
     * **📂 Active_Directory**
       * **📂 Attacks**

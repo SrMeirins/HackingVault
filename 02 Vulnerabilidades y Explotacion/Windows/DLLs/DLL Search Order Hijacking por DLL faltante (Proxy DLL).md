@@ -4,13 +4,13 @@
 
 El primer paso es identificar que el instalador tiene un problema de **DLL Search Order Hijacking**. Para ello ejecutamos **Procmon** mientras lanzamos el instalador vulnerable y aplicamos este filtro:
 
-```
+```text
 Operation = CreateFile 
 Path ends with = .dll 
 Result = NAME NOT FOUND
 ```
 
-Durante la ejecución veremos que el instalador intenta cargar `msi.dll` y `bcrypt.dll` **primero desde su propio directorio** (`C:\Installer\msi.dll`), no las encuentra (NAME NOT FOUND), y entonces sí las carga desde `C:\Windows\System32`. 
+Durante la ejecución veremos que el instalador intenta cargar `msi.dll` y `bcrypt.dll` **primero desde su propio directorio** (`C:\Installer\msi.dll`), no las encuentra (NAME NOT FOUND), y entonces sí las carga desde `C:\Windows\System32`.
 
 **Esto es crítico**: Windows busca DLLs en el directorio de la aplicación **ANTES** que en System32. Si podemos escribir en esa carpeta, podemos hijackear esas DLLs.
 
@@ -111,7 +111,7 @@ copy x64\Release\msi.dll "C:\Path\To\Installer\msi.dll"
 
 Cuando el instalador hace `LoadLibrary("msi.dll")`:
 
-1. Windows busca **primero** en `C:\Installer\` 
+1. Windows busca **primero** en `C:\Installer\`
 2. Encuentra **nuestra** `msi.dll` maliciosa
 3. Se ejecuta `DllMain(DLL_PROCESS_ATTACH)`
 4. Creamos hilo paralelo con `PayloadThread()`
