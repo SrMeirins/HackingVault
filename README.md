@@ -161,6 +161,11 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
       * **📂 js2py lib**
         * **📂 RCE**
             * 📄 [js2py RCE](02%20Vulnerabilidades%20y%20Explotacion/Web/Libs%20%26%20Dependencies/js2py%20lib/RCE/js2py%20RCE.md)
+    * **📂 Management Panels**
+      * **📂 Pterodactyl**
+          * 📄 [Pterodactyl - Qué es](02%20Vulnerabilidades%20y%20Explotacion/Web/Management%20Panels/Pterodactyl/Pterodactyl%20-%20Qu%C3%A9%20es.md)
+        * **📂 CVEs**
+            * 📄 [CVE-2025-49132 - Pterodactyl Panel LFI -> RCE (Pre-Auth)](02%20Vulnerabilidades%20y%20Explotacion/Web/Management%20Panels/Pterodactyl/CVEs/CVE-2025-49132%20-%20Pterodactyl%20Panel%20LFI%20-%3E%20RCE%20%28Pre-Auth%29.md)
     * **📂 Monitoring & Dashboards**
       * **📂 Grafana**
         * **📂 CVEs**
@@ -228,6 +233,8 @@ La estructura actual es el resultado de ir organizando las notas sobre la marcha
           * 📄 [Sudo Privesc Binarios](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/Sudo%20Binaries/Sudo%20Privesc%20Binarios.md)
       * **📂 WildCards Abuse**
           * 📄 [Wildcard Rsync](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/WildCards%20Abuse/Wildcard%20Rsync.md)
+      * **📂 udisks**
+          * 📄 [CVE-2025-6018 + CVE-2025-6019 - LPE: Usuario sin privilegios -> Root](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Linux/udisks/CVE-2025-6018%20%2B%20CVE-2025-6019%20-%20LPE%3A%20Usuario%20sin%20privilegios%20-%3E%20Root.md)
     * **📂 Windows**
       * **📂 Active Directory**
           * 📄 [Server Operator Group](03%20Post%20Explotacion/Escalada%20de%20Privilegios/Windows/Active%20Directory/Server%20Operator%20Group.md)
